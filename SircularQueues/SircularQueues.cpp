@@ -22,5 +22,11 @@ public:
 			cout << "\nqueue overflow\n";
 				return;
 		}
+
+		//cek apakah antrian kosong
+		if (fornt == -1) {
+			fornt = 0;
+			rear = 0;
+		}
 	}
 };
