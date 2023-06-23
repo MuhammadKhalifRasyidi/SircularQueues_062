@@ -17,5 +17,10 @@ public:
 		cin >> num;
 		cout << endl;
 
+		//cek apakah antrian penuh
+		if ((fornt == 0 && rear == max - 1) || (fornt == rear + 1)) {
+			cout << "\nqueue overflow\n";
+				return;
+		}
 	}
 };
