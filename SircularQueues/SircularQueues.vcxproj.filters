@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SircularQueues.cpp">
+    <ClCompile Include="CircularQueues.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
